@@ -1,0 +1,193 @@
+
+header, footer, aside, nav, article {
+            display: block;
+}
+
+
+body{
+      border:3px solid #943506;
+      border-radius:.5%;
+      width:80%;
+      height:80%;
+      margin:10% auto 10% auto;
+      text-align: left;
+      font:1em Georgia, serif;
+      background:url("../images/ruby-sundial.gif") repeat center;
+      background-color:#471D16; 
+      box-shadow: 0px 0px 10px #111111;
+      padding:0%;
+
+}
+img {
+	width:100%;
+	border:4px solid #F59FCA;
+}
+#page{
+	    background-color:#F59FCA;
+      border:3px solid #F59FCA;
+      border-radius: .5%;
+}
+#contact{
+  font-size: 1em;
+  border: 2px solid #F59FCA;
+  margin:10% auto 10% auto;
+  margin:10% auto 10% auto;
+  background-color:#F5CFCB;
+  border: 1px solid #F52276;
+  box-shadow:0px 0px 10px #111111;
+  text-align: center;
+  width:60%;
+
+
+}
+#cuisine{
+  padding-top: 5%;
+}
+
+#search{
+  background-color:#471D16;
+  color: #ffffff;
+
+}
+  
+.column1{
+    float: left; 
+    width: 60%;
+    height: 20%; 
+    margin:10% auto 10% auto;
+    padding-right: 10%;
+    padding-left: 5%;
+    
+}
+
+.column2{
+   float:left; 
+   width:20%; 
+   height:50%;
+   margin:10% auto 10% auto;
+   background-color:#F5CFCB;
+   border: 1px solid #F52276;
+   box-shadow:0px 0px 10px #111111;
+   
+}
+nav{
+	border: 4px solid #471D16;
+	margin:10% auto 10% auto;
+  background-color:#471D16;
+  box-shadow:0px 0px 10px #111111;
+}
+
+h1{
+color:#F2508E;
+text-align: center;
+padding-top: 10%;
+font-style:italic;
+font-size: 3em;
+padding-bottom: 1%;
+
+}
+
+h2{
+color:#F2508E;
+text-align: center;
+font: arial,sans-serif;
+}
+
+h3{
+color:#F2508E;
+text-align: left;
+font: arial,sans-serif;
+}
+
+h4{
+color:#F2508E;
+text-align: left;
+font: arial,sans-serif;
+}
+
+h5{
+color:#F2508E;
+text-align: center;
+font: 1em, bold,arial,sans-serif;
+padding-top:5%;
+}
+
+p{
+color:#2E2101;
+}
+
+ul{
+ color:#ffffff;
+ 
+}
+
+aside ol{
+ color:#ffffff;
+ list-style-type:decimal-leading-zero;
+ width: 60%;
+
+}
+
+ul li{
+  color:#ffffff;
+  list-style-type:circle;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+nav li { display: inline; margin-right:8%; 
+
+}
+table{
+    height: 50%;
+    width: 100%; 
+    margin: 10% auto 10% auto;
+    border: 5px solid #F52276;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1%;
+    text-transform: lowercase;
+    border-spacing: 3px 9px;
+    background:url("../images/gradient.png");
+
+}
+ 
+th{
+     border: 1px solid #F52276;
+     background-color:#E01B5D;
+     font-style: italic;
+
+ }
+td{
+    border: 1px solid #F52276;
+    background-color:#E01B5D; 
+      }
+a:link{
+     color:#ffffff; 
+     text-decoration: none;
+}
+
+a:visited{
+ color:#E01B5D;
+}
+
+a:hover{
+  color:#DEB9FA; 
+  text-decoration: underline;
+}
+
+input:hover{
+  color:#DEB9FA;
+}
+textarea:hover{
+  color:#DEB9FA;
+}
+#select:hover{
+  color:#DEB9FA;
+}
+
+footer{
+clear:both;
+display:block;
+font-size: 0.8em ;
+
+}
