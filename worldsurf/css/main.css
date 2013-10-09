@@ -1,6 +1,12 @@
+
+footer, aside, article {
+display: block;
+}
+
+
 body{
 
-	background: url("../image/background.gif"); 
+	    background: url("../image/background.gif"); 
       border:3px solid #943506;
       border-radius:.5%;
       width:80%;
@@ -8,18 +14,49 @@ body{
       margin:10% auto 10% auto;
       padding:5%;
       padding-left: 10%;
-     
       font:1em Georgia, serif;
 }
 
-#article{
-	float: left;
-	width: 50%;
+.column1{
+	float: left; 
+    width: 50%;
+    height: 20%; 
+    margin:10% auto 10% auto;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .column2{
+  float:left; 
+   width:20%; 
+   height:50%;
+   margin:10% auto 10% auto;
+   
+ }
+
+ table{
+  background: #f7f7f9;  /*changes color of the background of the table*/
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
 }
-#aside{
-	float: left;
-    width: 20%;
+
+tr{
+  display: inline-block;
+  border-color: inherit;
 }
-#footer{
+
+
+th:first-child{
+  /*border-right: 1px solid #6a7680;*/
+  display: block;
+}
+td{
+  padding: 1em 1em;
+  width: 80%;
+}
+td:first-child{
+  /*border-right: 1px solid #6a7680;*/
+}
+footer{
 	clear:both;
 }
