@@ -32,7 +32,7 @@ body{
  table{
   background: #f7f7f9;  /*changes color of the background of the table*/
   border-collapse: collapse;
-  width: 50%;
+  width: 30%;
   height: 10%;
   text-align: center;
   font: 1em  "Times New Roman", Times, serif;
@@ -48,7 +48,8 @@ th{
  }
 td{
     border: 1px solid #A67300;
-    background-color: #dddddd; 
+    background-color: #dddddd;
+
  }
 
 tr{
