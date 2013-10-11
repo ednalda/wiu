@@ -14,14 +14,14 @@ body{
 
 }
 
-h2{
-  font-family: "Times New Roman",Georgia,Serif;;
-}
 h1{
-  font-family: "Times New Roman",Georgia,Serif;;
+  font-family: "Times New Roman",Georgia,Serif;
+}
+h2{
+  font-family: "Times New Roman",Georgia,Serif;
 }
 h3{
-  font-family: "Times New Roman",Georgia,Serif;;
+  font-family: "Times New Roman",Georgia,Serif;
 }
 .column1{
 	float: left; 
