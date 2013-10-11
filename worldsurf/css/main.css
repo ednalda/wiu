@@ -12,6 +12,9 @@ body{
       margin:0% auto 0% auto;
       font:1em Georgia, serif;
 }
+h1{
+  font-family: "Times New Roman",Georgia,Serif;;
+}
 
 .column1{
 	float: left; 
